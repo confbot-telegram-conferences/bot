@@ -1,0 +1,1124 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <vscode@00a939dc8cad>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-11 20:53+0000\n"
+"PO-Revision-Date: 2021-02-08 04:26+0000\n"
+"Last-Translator:  <vscode@00a939dc8cad>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/mixins/back_buttons_mixin.py:8 app/mixins/history_mixin.py:12
+#: app/handlers2/mixins/back_buttons_mixin.py:9
+#: app/handlers2/conference/alerts.py:28
+#: app/handlers2/channel/name_conversation.py:20
+#: app/handlers2/channel/publish.py:16 app/handlers/create_slide.py:25
+#: app/handlers/slide/change_data.py:26 app/handlers/slide/remove_mixin.py:23
+#: app/handlers/slide/__init__.py:84 app/handlers/conference/course_mixin.py:28
+#: app/handlers/course/category_mixin.py:31
+msgid "back_in_history_btn"
+msgstr ":arrow_left: Regresar"
+
+#: app/mixins/back_buttons_mixin.py:12
+#: app/handlers2/mixins/back_buttons_mixin.py:12
+#: app/handlers2/conference_show.py:49 app/handlers2/conference_show.py:187
+#: app/handlers2/course_show.py:87 app/handlers/create_course.py:33
+msgid "go_to_start_btn"
+msgstr ":house: Inicio"
+
+#: app/mixins/show_slide_mixin.py:15
+#: app/handlers2/mixins/show_slide_mixin.py:11
+msgid "conference_create_slide_header"
+msgstr ":point_right: Diapositiva: %s"
+
+#: app/mixins/paginage_mixin.py:50 app/handlers2/mixins/paginage_mixin.py:50
+msgid "list_empty"
+msgstr "No hay datos que mostrar."
+
+#: app/mixins/paginage_mixin.py:63 app/handlers2/mixins/paginage_mixin.py:65
+msgid "list_previous"
+msgstr ":left_arrow: Anterior"
+
+#: app/mixins/paginage_mixin.py:70 app/handlers2/mixins/paginage_mixin.py:72
+msgid "list_next"
+msgstr "Siguiente :right_arrow:"
+
+#: app/mixins/paginage_mixin.py:85 app/handlers2/mixins/paginage_mixin.py:89
+msgid "list_create"
+msgstr " :heavy_plus_sign: Crear nueva"
+
+#: app/mixins/yes_no_buttons.py:8 app/handlers2/conference/alerts.py:24
+#: app/handlers2/channel/publish.py:27 app/handlers2/channel/__init__.py:54
+#: app/handlers/conference/__init__.py:154
+#: app/handlers/conference/__init__.py:155
+msgid "Yes"
+msgstr "Si"
+
+#: app/mixins/yes_no_buttons.py:12 app/handlers2/channel/__init__.py:54
+#: app/handlers/conference/__init__.py:154
+#: app/handlers/conference/__init__.py:157
+msgid "No"
+msgstr "No"
+
+#: app/handlers2/conference_list.py:31
+msgid "channel_conferences_header"
+msgstr ":sunny: Conferencias del canal *%s*"
+
+#: app/handlers2/start.py:33
+msgid "start_channel_public"
+msgstr ":tv: Canales públicos"
+
+#: app/handlers2/start.py:39 app/handlers2/channel/name_conversation.py:39
+#: app/handlers2/channel/publish.py:44
+msgid "start_my_space"
+msgstr ":open_file_folder: Mi espacio personal"
+
+#: app/handlers2/start.py:44
+msgid "start_command_help"
+msgstr ":interrobang: Ayuda"
+
+#: app/handlers2/start.py:53
+msgid "start_command_hearder"
+msgstr ""
+":sunny: Hola te doy la bienvenida \n"
+"Aquí puedes\n"
+" :point_right: Ver los cursos públicos creados por otros usuarios.\n"
+" :point_right: Entrar a tu espacio personal y crear cursos para la comunidad "
+"o privados.\n"
+" :point_right: O entrar a la ayuda para ver más detalles del bot."
+
+#: app/handlers2/show_in_group.py:34
+msgid "conference_group_show_not_id"
+msgstr "Debe pasar la referencia de una conferencia."
+
+#: app/handlers2/show_in_group.py:41
+msgid "conference_group_show_no_slides"
+msgstr ""
+":x: La conferencia: \n"
+"\"%s\"\n"
+"No tiene ninguna diapositiva."
+
+#: app/handlers2/show_in_group.py:47
+msgid "conference_group_show"
+msgstr ""
+"$name\n"
+"Cantidad de diapositivas: $number_slides\n"
+"$description\n"
+"Usa el comando /next_slide@$bot_name para pasar de diapositivas"
+
+#: app/handlers2/show_in_group.py:64 app/handlers2/show_in_group.py:124
+msgid "conference_group_show_next_error"
+msgstr ":x: Debe inicializar una conferencia primero."
+
+#: app/handlers2/show_in_group.py:72
+msgid "conference_group_show_end"
+msgstr ""
+"Se ha terminado la conferencia. \n"
+"%s \n"
+"Puede volver a verla aquí: \n"
+"%s"
+
+#: app/handlers2/show_in_group.py:95
+msgid "conference_group_show_close_error"
+msgstr "No tiene ninguna conferencia activa."
+
+#: app/handlers2/show_in_group.py:98
+msgid "conference_group_was_closed"
+msgstr ""
+"Ha cerrado la conferencia \"%s\". La puede volver a ver aquí \n"
+"%s"
+
+#: app/handlers2/show_in_group.py:129
+msgid "conference_group_show_same_error"
+msgstr "Debe mostrar por lo menos una diapositiva primero."
+
+#: app/handlers2/conference/alerts.py:34
+msgid "conference_alert_stop"
+msgstr "¿Quieres dejar de recibir alertas para la conferencia *%s*?"
+
+#: app/handlers2/conference/alerts.py:36
+msgid "conference_alert_start"
+msgstr "¿Quieres recibir alertas de la conferencia *%s*?"
+
+#: app/handlers2/conference/alerts.py:48
+#: app/handlers2/conference/upload_zip_mixin.py:38
+msgid "conference_wait_end_detail"
+msgstr "Ir a la conferencia."
+
+#: app/handlers2/conference/alerts.py:56
+msgid "conference_alert_start_done"
+msgstr "Las alertas de la conferencia están ahora activadas."
+
+#: app/handlers2/conference/alerts.py:58
+msgid "conference_alert_stop_done"
+msgstr "La alertas están ahora desactivadas."
+
+#: app/handlers2/conference/upload_zip_mixin.py:18
+msgid "conference_wait_zip_max_size"
+msgstr "El máxismo para los ficheros es de %s mb."
+
+#: app/handlers2/conference/upload_zip_mixin.py:45
+msgid "conference_wait_end"
+msgstr ""
+"Ha decidido terminar de subir la conferencia.\n"
+"Si se ha terminado de procesar todos los ficheros *zip* ya puede ver la "
+"conferencia."
+
+#: app/handlers2/conference/create.py:37
+#: app/handlers2/conference/update_by_zip.py:37
+msgid "conference_wait_ask_name_btn"
+msgstr "Comenzar"
+
+#: app/handlers2/conference/create.py:41
+#: app/handlers2/conference/update_by_zip.py:41
+msgid "conference_wait_give_zipe_btn"
+msgstr "Ejemplo de plantilla zip"
+
+#: app/handlers2/conference/create.py:48
+msgid "conference_start_text"
+msgstr ""
+"Hola. Le guiaré en el proceso de creación de una conferencia. Debe hacer en "
+"lo siguientes pasos.\n"
+" \n"
+":point_right: Escribir el nombre de la conferencia.\n"
+":point_right: Escribir la descripción.\n"
+":point_right: Finalmente subir uno o varios ficheros zip con las "
+"diapositivas.\n"
+" \n"
+"Los ficheros *zip* debe tener dos carpetas internas. \n"
+" \n"
+":point_right: *slides*: Tendrá todas las imágenes. Donde el nombre de cada "
+"fichero debe tener esta forma: *1.jpg*, *2.jpg* o *slide1.png*, *slide2."
+"png*\n"
+":point_right: *audios*: Tendrá todas los audios. Donde el nombre de cada "
+"fichero debe tener esta forma: *1.mp3*, *2.mp3*, etc. Esta carpeta no es "
+"obligatoria.\n"
+" \n"
+"Algo que se debe aclarar es que los ficheros *zip* no pueden pasar de *20 "
+"mb*. La razón es que telegram limita a los bot a este tamaño de ficheros.\n"
+"Si la conferencia pesa más de *20 mb*, la solución es crear varios ficheros ."
+"*zip*.\n"
+" \n"
+"Cuando quiera terminar escriba el comando /end \n"
+" \n"
+"Puede comenzar o obtener una plantailla zip para que ver la estructura que "
+"tiene que tener."
+
+#: app/handlers2/conference/create.py:54
+msgid "conference_wait_name"
+msgstr "Escriba el nombre de la conferencia."
+
+#: app/handlers2/conference/create.py:61
+msgid "conference_wait_description"
+msgstr "Escriba una breve descripción de la conferencia"
+
+#: app/handlers2/conference/create.py:72
+#: app/handlers2/conference/update_by_zip.py:76
+#: app/handlers2/conference/update_by_zip.py:87
+msgid "conference_wait_zip"
+msgstr ""
+"Si tiene que subir más de un fichero, súbalo de uno en uno.\n"
+"Cada fichero demora un poco en ser procesado.\n"
+"Cuando termine escriba el comando /end"
+
+#: app/handlers2/conference/statistics.py:22
+msgid "conference_statistics_text"
+msgstr ""
+":sunny: ESTADSTICAS: *$name* \n"
+":point_right: Cantidad de vistas únicas: *$count_unique_show* \n"
+":point_right: Evaluación: *$evaluation_avg de 5* \n"
+":point_right: Promedio de diapositivas vistas: *$slide_show_avg de "
+"$count_slide*"
+
+#: app/handlers2/conference/update_by_zip.py:48
+msgid "update_by_zip_start_text"
+msgstr ""
+"Hola. Le guiaré en el proceso de actualización de una conferencia. Debe "
+"hacer en lo siguientes pasos.\n"
+" \n"
+":point_right: Definir si va a borrar todas las diapositivas antes de "
+"comenzar.\n"
+":point_right: Solo modificar diapostivas manteniendo las demás.\n"
+" \n"
+"Los ficheros *zip* debe tener dos carpetas internas. \n"
+" \n"
+":point_right: *slides*: Tendrá todas las imágenes. Donde el nombre de cada "
+"fichero debe tener esta forma: *1.jpg*, *2.jpg* o *slide1.png*, *slide2."
+"png*\n"
+":point_right: *audios*: Tendrá todas los audios. Donde el nombre de cada "
+"fichero debe tener esta forma: *1.mp3*, *2.mp3*, etc. Esta carpeta no es "
+"obligatoria.\n"
+" \n"
+"Algo que se debe aclarar es que los ficheros *zip* no pueden pasar de *20 "
+"mb*. La razón es que telegram limita a los bot a este tamaño de ficheros.\n"
+"Si la conferencia pesa más de *20 mb*, la solución es crear varios ficheros ."
+"*zip*.\n"
+" \n"
+"Cuando quiera terminar escriba el comando /end \n"
+" \n"
+"Puede comenzar o obtener una plantailla zip para que ver la estructura que "
+"tiene que tener."
+
+#: app/handlers2/conference/update_by_zip.py:57
+msgid "update_by_zip_clear_files_btn"
+msgstr "Si, borrar todas"
+
+#: app/handlers2/conference/update_by_zip.py:63
+msgid "update_by_zip_upload_btn"
+msgstr "No, solo subir una actualización."
+
+#: app/handlers2/conference/update_by_zip.py:70
+msgid "update_by_zip_text"
+msgstr "¿Desea borrar todas las diapostivas antes de comenzar?"
+
+#: app/handlers2/conference/update_by_zip.py:86
+msgid "update_by_zip_slides_removed"
+msgstr "Todas las diapositivas fueron eliminadas."
+
+#: app/handlers2/conference_show.py:43
+msgid "conference_show_start"
+msgstr ":arrow_forward: Comenzar"
+
+#: app/handlers2/conference_show.py:55 app/handlers2/conference_show.py:181
+msgid "conference_show_go_to_course"
+msgstr ":blue_book: Ir al curso"
+
+#: app/handlers2/conference_show.py:75
+msgid "conference_show_header_name"
+msgstr ""
+":sunny: CONFERENCIA \n"
+":point_right: Nombre: $name \n"
+":point_right: Curso: $course \n"
+":point_right: Cantidad de diapositivas: $number_slides \n"
+":point_right: Descripción: \n"
+"$description \n"
+" \n"
+":eyes: *$count_unique_show* \n"
+":star: *$evaluation_avg* de 5"
+
+#: app/handlers2/conference_show.py:98
+msgid "conference_show_empty"
+msgstr "No hay diapositivas que mostrar."
+
+#: app/handlers2/conference_show.py:107
+msgid "conference_show_previos"
+msgstr ":left_arrow: Anterior"
+
+#: app/handlers2/conference_show.py:114
+msgid "conference_show_abort"
+msgstr "Salir :wave:"
+
+#: app/handlers2/conference_show.py:121
+msgid "conference_show_next"
+msgstr "Siguiente :right_arrow:"
+
+#: app/handlers2/conference_show.py:130
+msgid ":pensive:"
+msgstr ""
+
+#: app/handlers2/conference_show.py:134
+msgid ":confused:"
+msgstr ""
+
+#: app/handlers2/conference_show.py:138
+msgid ":wink:"
+msgstr ""
+
+#: app/handlers2/conference_show.py:142
+msgid ":smile:"
+msgstr ""
+
+#: app/handlers2/conference_show.py:146
+msgid ":heart_eyes:"
+msgstr ""
+
+#: app/handlers2/conference_show.py:152
+msgid "conference_show_end"
+msgstr ":muscle: La presentación ha finalizado. ¿Podría dar una evaluación? "
+
+#: app/handlers2/conference_show.py:161
+msgid "conference_show_abort_message"
+msgstr ""
+"Usted no ha querido terminar de ver la conferencia. \n"
+"Cuando lo desee puede volver a verla."
+
+#: app/handlers2/conference_show.py:167 app/handlers/conference/__init__.py:59
+msgid "conference_wait_share_text"
+msgstr "Mira esta conferencia: %s"
+
+#: app/handlers2/conference_show.py:172 app/handlers2/conference_show.py:194
+msgid "conference_show_again"
+msgstr " :cyclone: Volver a ver"
+
+#: app/handlers2/conference_show.py:175 app/handlers2/conference_show.py:197
+#: app/handlers/conference/__init__.py:101
+msgid "conference_wait_share"
+msgstr ":mega: Compartir conferencia"
+
+#: app/handlers2/conference_show.py:211
+msgid "conference_show_evaluation_thanks"
+msgstr ":blush: Gracias por la evaluación"
+
+#: app/handlers2/out_of_context.py:12
+msgid "commands_only_in_group"
+msgstr "Este comando solo se puede usar en los grupos."
+
+#: app/handlers2/out_of_context.py:19
+msgid "commands_only_private"
+msgstr ":x: Este comando solo se puede usar de forma privada."
+
+#: app/handlers2/error_handler.py:14 app/handlers/error_handler.py:14
+msgid "fatal_error_text"
+msgstr " :worried: Ha ocurrido un error fatal. Vamos a solucionarlo pronto."
+
+#: app/handlers2/channel/name_conversation.py:25
+msgid "channel_change_name"
+msgstr ""
+"*Escriba un nombre para el canal* \n"
+"Por este nombre será indentificado su canal por los demás usuarios."
+
+#: app/handlers2/channel/name_conversation.py:44
+msgid "channel_change_name_done"
+msgstr ""
+"El nombre del canal fue cambiado.\n"
+"Ahora es:\n"
+"*%s*"
+
+#: app/handlers2/channel/publish.py:21
+msgid "channel_published_error_no_name"
+msgstr ":x: Para publicar su canal primero debe ponerle un nombre."
+
+#: app/handlers2/channel/publish.py:33
+msgid "channel_published_stop"
+msgstr "¿Quiere dejar de publicar el canal?"
+
+#: app/handlers2/channel/publish.py:35
+msgid "channel_published_start"
+msgstr ""
+"*¿Desea publicar su canal?* \n"
+"Esto hará que todas sus canferencias y cursos activos sean visibles para "
+"todos los usuarios.\n"
+"De antemanos le agradecemos porque es una buena forma de compartir "
+"conocimiento. :muscle:"
+
+#: app/handlers2/channel/publish.py:50
+msgid "channel_published_start_done"
+msgstr ""
+"El canal está publicado y será visible por todos los usuarios. :muscle:"
+
+#: app/handlers2/channel/publish.py:52
+msgid "channel_published_stop_done"
+msgstr "El canal ya no está público."
+
+#: app/handlers2/channel/__init__.py:19
+msgid "channel_published_button_desactive"
+msgstr ":eyes: No publicar el canal"
+
+#: app/handlers2/channel/__init__.py:21
+msgid "channel_published_button_active"
+msgstr ":eyes: Publicar canal"
+
+#: app/handlers2/channel/__init__.py:25
+msgid "channel_change_name_btn"
+msgstr ":loudspeaker: Nombre del canal"
+
+#: app/handlers2/channel/__init__.py:32
+msgid "start_command_myconferences"
+msgstr ":scroll: Mis conferencias"
+
+#: app/handlers2/channel/__init__.py:36
+msgid "start_command_conference_create"
+msgstr ":heavy_plus_sign: Nueva conferencia."
+
+#: app/handlers2/channel/__init__.py:42
+msgid "start_command_mycourses"
+msgstr ":blue_book: Mis cursos"
+
+#: app/handlers2/channel/__init__.py:45
+msgid "start_command_course_create"
+msgstr ":heavy_plus_sign: Nuevo curso"
+
+#: app/handlers2/channel/__init__.py:52
+msgid "my_space_command_hearder"
+msgstr ""
+":sunny: *Tu espacio personal* \n"
+" :point_right: *Nombre*: $name\n"
+" :point_right: *Canal público*: $published\n"
+" \n"
+"*Aquí puedes*\n"
+" :point_right: Ver las conferencias que ha creado.\n"
+" :point_right: Crear una nueva conferencia.\n"
+" :point_right: Ver el listado de los cursos que tienes registrado.\n"
+" :point_right: Crear un nuevo curso."
+
+#: app/handlers2/help.py:17
+msgid "bot_help"
+msgstr ""
+":interrobang: Ayuda\n"
+"\n"
+"ConfBot es un bot de telegram que le permitirá gestionar y visualizar "
+"conferencias.\n"
+" \n"
+"En el menú principal podrá ver cursos públicos creados por otras personas o "
+"entrar a su espacio personal donde podrá gestionar sus propios cursos y "
+"conferencias.\n"
+" \n"
+"Si después de crear un curso desea que sea público, comunicase con el equipo "
+"de desarrollo. No dude en ningún momento. Nos interesa tener contenido de "
+"calidad disponible para toda la comunidad. \n"
+"\n"
+"En su espacio personal podrá encontrar las siguientes opciones: \n"
+"\n"
+":point_right: Mis conferencias: Le listará todas las conferencias que ya "
+"tenga registradas.\n"
+"\n"
+":point_right: Nueva conferencia: Lo guiará en el flujo de creación de una "
+"nueva conferencia.\n"
+"\n"
+":point_right: Mis cursos: Le listará todos los cursos que tenga "
+"registrados.\n"
+"\n"
+":point_right: Nuevo curso: Lo guiará en el flujo para crear un curso.\n"
+"\n"
+"Siempre que desee volver al menú inicial puede escribir el comando /start\n"
+"\n"
+"Si tiene alguna otra duda, dificultad o desea reportar algún error, lo puede "
+"hacer a través de nuestro bot de soporte @Confeedbackbot.\n"
+"\n"
+"Esperamos haber podido ayudarle!"
+
+#: app/handlers2/course_list.py:31
+msgid "channel_curses_header"
+msgstr ":sunny: Cursos del canal *%s*"
+
+#: app/handlers2/channel_detail.py:27
+msgid "channel_detail_conferences"
+msgstr ":scroll: Conferencias"
+
+#: app/handlers2/channel_detail.py:36
+msgid "channel_detail_courses"
+msgstr ":blue_book: Cursos"
+
+#: app/handlers2/channel_detail.py:42
+msgid "channel_detail_header"
+msgstr ""
+":sunny: *$name* \n"
+":point_right:  Cantidad de conferencias: $conference_count\n"
+":point_right:  Cantidad de cursos: $course_count"
+
+#: app/handlers2/channel_public.py:23
+msgid "channel_public_header"
+msgstr "Canales públicos"
+
+#: app/handlers2/channel_public.py:25
+msgid "channel_public_header_empty"
+msgstr "No tenemos nignún canal público en este momento."
+
+#: app/handlers2/course_show.py:61 app/handlers/my_conferences.py:66
+msgid "conference_admin_list_menu_course"
+msgstr ""
+":sunny: CONFERENCIAS \n"
+":point_right: Curso: $name \n"
+":point_right: Numero de conferencias: $number_of_conferences \n"
+":point_right: Descripción: \n"
+"$description"
+
+#: app/handlers2/course_show.py:73 app/handlers/course/__init__.py:50
+msgid "course_wait_share_text"
+msgstr "Mira este cuso: %s"
+
+#: app/handlers2/course_show.py:75 app/handlers/course/__init__.py:73
+msgid "course_wait_share"
+msgstr ":mega: Compartir el curso"
+
+#: app/core/context.py:72
+msgid "command_out_of_context_private"
+msgstr "Para usar este comando cámbiate al chat privado con el bot."
+
+#: app/core/context.py:74
+msgid "command_out_of_context_group"
+msgstr "Este comando solo se usa en los grupos."
+
+#: app/bot_config/commands.py:13
+msgid "conference_group_show_next_command_description"
+msgstr "Mostrar otra diapositiva en un grupo"
+
+#: app/bot_config/commands.py:17
+msgid "conference_group_show_show_same_command_description"
+msgstr "Volver a ver la última diapositiva mostrada."
+
+#: app/bot_config/commands.py:21
+msgid "conference_group_show_reset_command_description"
+msgstr "Reiniciar conferencia."
+
+#: app/bot_config/commands.py:28
+msgid "help_command_description"
+msgstr "Obtener ayuda."
+
+#: app/bot_config/commands.py:32
+msgid "start_command_description"
+msgstr "Inicializar el bot"
+
+#: app/handlers/create_slide.py:31
+msgid "conference_wait_slide_text"
+msgstr ""
+"Proceso para crear una diapositiva \n"
+"Una diapositiva tiene una imagen, un texto y puede tener un aduio.\n"
+" \n"
+"Escriba un texto que acompañe a la diapositiva."
+
+#: app/handlers/create_slide.py:45
+msgid "create_slide_image"
+msgstr "Suba la imagen. Solo puede ser una."
+
+#: app/handlers/create_slide.py:58
+msgid "conference_wait_slide_voice"
+msgstr ""
+"Envíe un mensaje de voz\n"
+"Si no desea subir ningún aduio, escriba \"no\".\n"
+"En dependencia del tamaño del fichero puede demorar un poco."
+
+#: app/handlers/create_slide.py:60
+msgid "conference_wait_slide_image_error"
+msgstr ""
+"Tiene que subir una imagen. Verifique que se suba como imagen y no como "
+"documento."
+
+#: app/handlers/create_slide.py:78 app/handlers/slide/voice_mixin.py:41
+msgid "error_max_size_file"
+msgstr ""
+"El fichero que subió es demasiado grande.\n"
+"El máximo permitido es %s M.\n"
+"Por favor suba otro."
+
+#: app/handlers/slide_list.py:68
+msgid "conference_create_slide_menu"
+msgstr ""
+":sunny: DIAPOSITIVAS\n"
+"Conferencia: %s \n"
+"Número de diapositívas: %s"
+
+#: app/handlers/my_conferences.py:71
+msgid "conference_admin_list_menu"
+msgstr ""
+":sunny: CONFERENCIAS\n"
+"Cantidad de conferencias: %s"
+
+#: app/handlers/create_course.py:12
+msgid "create_course_command_description"
+msgstr "Crear curso."
+
+#: app/handlers/create_course.py:20
+msgid "course_start_text"
+msgstr ""
+"Hola. Le guiaré en el proceso de creación de un curso.\n"
+"Lo primero será poner el nombre del curso.\n"
+"Luego se le pedirá la descripción.\n"
+"Finalmente, entrará en un menú donde podrá gestionar las conferencias."
+
+#: app/handlers/create_course.py:22
+msgid "course_start_question"
+msgstr "¿Desea comenzar?"
+
+#: app/handlers/create_course.py:29
+msgid "course_wait_start_clear"
+msgstr "Si desea hacerlo después, no dude en llamarme :wink:"
+
+#: app/handlers/create_course.py:42
+msgid "course_wait_name"
+msgstr "Escriba el nombre del curso"
+
+#: app/handlers/create_course.py:43
+msgid "course_wait_start_yes_or_no"
+msgstr "Lo siento, no le entiendo. ¿Podría escribir: si o no?"
+
+#: app/handlers/create_course.py:51
+msgid "course_wait_description"
+msgstr "Escriba una breve descripción del curso."
+
+#: app/handlers/slide/remove_mixin.py:19
+msgid "slide_remove_btn"
+msgstr "Si, eliminar"
+
+#: app/handlers/slide/remove_mixin.py:33
+msgid "slide_remove_ask"
+msgstr ""
+" \n"
+" \n"
+"¿Desea eliminar este slide?"
+
+#: app/handlers/slide/text_mixin.py:18
+msgid "command_change_text_get_name"
+msgstr ""
+" \n"
+" \n"
+"Escriba el nuevo texto"
+
+#: app/handlers/slide/__init__.py:64
+msgid "slide_command_change_text"
+msgstr "Cambiar texto"
+
+#: app/handlers/slide/__init__.py:68
+msgid "slide_command_change_image"
+msgstr "Cambiar imagen"
+
+#: app/handlers/slide/__init__.py:72
+msgid "slide_command_change_voice"
+msgstr "Cambiar audio"
+
+#: app/handlers/slide/__init__.py:78
+msgid "slide_remove"
+msgstr ":x: Eliminar"
+
+#: app/handlers/slide/__init__.py:116
+msgid "slide_header"
+msgstr ":point_right: Diapositiva %s, de la conferencia: %s"
+
+#: app/handlers/slide/image_mixin.py:20
+msgid "command_change_text_get_image"
+msgstr ""
+" \n"
+" \n"
+"Suba la nueva imagen. Solo puede subir una sola."
+
+#: app/handlers/slide/voice_mixin.py:20
+msgid "command_change_text_get_voice"
+msgstr ""
+" \n"
+" \n"
+"Enviar un mensaje de voz."
+
+#: app/handlers/conference/active_mixin.py:13
+msgid "conference_desactive_btn"
+msgstr "Si, desactivar"
+
+#: app/handlers/conference/active_mixin.py:15
+msgid "conference_active_btn"
+msgstr "Si, activar"
+
+#: app/handlers/conference/active_mixin.py:28
+msgid "conference_active_lb"
+msgstr "¿Desea activar la conferencia?"
+
+#: app/handlers/conference/remove_mixin.py:15
+msgid "conference_remove_btn"
+msgstr "Si, eliminar"
+
+#: app/handlers/conference/remove_mixin.py:24
+msgid "conference_remove_description_lb"
+msgstr ""
+" \n"
+" \n"
+"¿Seguro que va a eliminar la conferencia?"
+
+#: app/handlers/conference/course_mixin.py:35
+msgid "conference_create_change_course"
+msgstr ""
+" \n"
+" \n"
+"Seleccione el curso"
+
+#: app/handlers/conference/name_mixin.py:18
+msgid "conference_create_change_name"
+msgstr ""
+" \n"
+" \n"
+"Ponga el nuevo nombre"
+
+#: app/handlers/conference/description_mixin.py:20
+msgid "conference_create_change_description"
+msgstr ""
+" \n"
+" \n"
+"Ponga la nueva descripción para la conferencia"
+
+#: app/handlers/conference/__init__.py:66
+msgid "conference_desactive"
+msgstr "Desactivar"
+
+#: app/handlers/conference/__init__.py:68
+msgid "conference_active"
+msgstr "Activar"
+
+#: app/handlers/conference/__init__.py:71
+msgid "conference_alert_desactive"
+msgstr ":bell: Desactivar alertas"
+
+#: app/handlers/conference/__init__.py:73
+msgid "conference_alert_active"
+msgstr ":bell: Activar alertas"
+
+#: app/handlers/conference/__init__.py:79
+msgid "conference_wait_name_btn"
+msgstr "Cambiar Nombre"
+
+#: app/handlers/conference/__init__.py:82
+msgid "conference_wait_description_btn"
+msgstr "Cambiar Descripción"
+
+#: app/handlers/conference/__init__.py:88
+msgid "conference_wait_slides"
+msgstr "Diapositivas"
+
+#: app/handlers/conference/__init__.py:92
+msgid "conference_wait_show"
+msgstr "Probar la conferencia"
+
+#: app/handlers/conference/__init__.py:98
+msgid "conference_wait_open_in_group"
+msgstr "Abrir en un grupo"
+
+#: app/handlers/conference/__init__.py:114
+msgid "conference_change_category"
+msgstr "Cambiar de curso"
+
+#: app/handlers/conference/__init__.py:118
+msgid "conference_statistics"
+msgstr ":bar_chart: Estadísticas"
+
+#: app/handlers/conference/__init__.py:124
+msgid "conference_upload_zip"
+msgstr ":arrow_up: Actualizar conferencia con zip file."
+
+#: app/handlers/conference/__init__.py:130
+msgid "conference_remove"
+msgstr ":x: Eliminar"
+
+#: app/handlers/conference/__init__.py:149
+msgid "conference_wait_principal_menu"
+msgstr ""
+":sunny: CONFERENCIA \n"
+":point_right: Nombre: $name \n"
+":point_right: Curso: $course \n"
+":point_right: Cantidad de diapositivas: $number_slides \n"
+":point_right: Activa: $active_desactive \n"
+":point_right: Alertas activas: $alert_active_desactive \n"
+":point_right: Descripción: \n"
+"$description"
+
+#: app/handlers/new_members.py:32
+msgid "new_members"
+msgstr ""
+"Gracias por añadir Confbot\n"
+"Este bot le permitirá visualizar conferencias en el grupo\n"
+"Cualquier sugerencia o problema no dude en comunicarlo a través de "
+"@Confeedbackbot"
+
+#: app/handlers/course/remove_mixin.py:13
+msgid "course_remove_btn"
+msgstr "Si, eliminar"
+
+#: app/handlers/course/remove_mixin.py:22
+msgid "course_remove_description_lb"
+msgstr ""
+" \n"
+" \n"
+"¿Seguro que va a eliminar el curso?"
+
+#: app/handlers/course/name_mixin.py:18
+msgid "course_create_change_name"
+msgstr ""
+" \n"
+" \n"
+"Ponga el nuevo nombre"
+
+#: app/handlers/course/category_mixin.py:38
+msgid "course_create_change_category"
+msgstr ""
+" \n"
+" \n"
+"Seleccione una temática"
+
+#: app/handlers/course/description_mixin.py:20
+msgid "course_create_change_description"
+msgstr ""
+" \n"
+" \n"
+"Ponga la descripción para el curso"
+
+#: app/handlers/course/__init__.py:55
+msgid "course_wait_name_btn"
+msgstr "Nombre"
+
+#: app/handlers/course/__init__.py:58
+msgid "course_wait_description_btn"
+msgstr "Descripción"
+
+#: app/handlers/course/__init__.py:64
+msgid "course_wait_conferences"
+msgstr "Conferencias"
+
+#: app/handlers/course/__init__.py:68
+msgid "change_category"
+msgstr "Temática"
+
+#: app/handlers/course/__init__.py:77
+msgid "course_remove"
+msgstr ":x: Eliminar"
+
+#: app/handlers/course/__init__.py:92
+msgid "course_wait_principal_menu"
+msgstr ""
+":sunny: CURSO\n"
+":point_right: Nombre: $name \n"
+":point_right: Temática: $category \n"
+":point_right: Numero de conferencias: $number_of_conferences \n"
+":point_right: Numero de conferencias activas: "
+"$number_of_active_conferences \n"
+":point_right: Descripción: \n"
+"$description"
+
+#: app/handlers/not_found_handler.py:14
+msgid "no_found_text"
+msgstr ""
+"Lo siento, no le puedo entender :confused:.\n"
+"Use /help para obtener ayuda."
+
+#: app/handlers/my_courses.py:25
+msgid "mycourses_command_description"
+msgstr "Crear un nuevo curso."
+
+#: app/handlers/my_courses.py:41
+msgid "course_admin_list_menu"
+msgstr ""
+":sunny: MIS CURSOS \n"
+":point_right: Cursos: %s"
+
+#~ msgid "public_course_list"
+#~ msgstr ":mortar_board: Cursos públicos"
+
+#~ msgid "start_public_courses"
+#~ msgstr ":mortar_board: Cursos públicos"
+
+#~ msgid "myspace_command_description"
+#~ msgstr "Entrar a tu espacio personal."
+
+#~ msgid "conference_show_conference_not_found"
+#~ msgstr ":dizzy_face: La conferencia no existe o no está activa."
+
+#~ msgid "conference_command_description"
+#~ msgstr "Crear una conferencia"
+
+#~ msgid "conference_wait_start_clear"
+#~ msgstr "Si desea hacerlo después, no dude en llamarme :wink:"
+
+#~ msgid "conference_wait_start_yes_or_no"
+#~ msgstr "Lo siento, no le entiendo. ¿Podría escribir: si o no?"
+
+#~ msgid "conference_upload_zip_file_done"
+#~ msgstr "La conferencia se está cargando. Cuando se termine se le informará."
+
+#~ msgid "conference_upload_zip_file"
+#~ msgstr ""
+#~ " \n"
+#~ " \n"
+#~ "Suba el fichero zip con los datos de la conferencia."
+
+#~ msgid "conference_download_zip_file_done"
+#~ msgstr "Se está preparando el fichero .zip. Pronto lo recibirá."
+
+#~ msgid "conference_upload_zip_file_not_file"
+#~ msgstr ""
+#~ ":interrobang: Debe subir un fichero .zip con los datos de la conferencia."
+
+#, fuzzy
+#~ msgid "create_task_ask_description"
+#~ msgstr "Crear curso."
+
+#~ msgid "conference_download_zip"
+#~ msgstr ":arrow_down: Bajar zip"
+
+#, fuzzy
+#~ msgid "conference_upload_zip_file_done_more"
+#~ msgstr "La conferencia se está cargando. Cuando se termine se le informará."
+
+#~ msgid "conference_start_audio_or_end"
+#~ msgstr ""
+#~ "Comience a subir todos los audios. Tienen que ser en formato mp3.\n"
+#~ "Cuando termine escriba el comando /end"
+
+#~ msgid "conference_more_image_or_change"
+#~ msgstr ""
+#~ "Suba más imágenes o escriba /audios para comenzar a subir los audios."
+
+#, fuzzy
+#~ msgid "conference_more_file_or_done"
+#~ msgstr "La conferencia se está cargando. Cuando se termine se le informará."
+
+#~ msgid "mycourses_description"
+#~ msgstr "Listar sus cursos"
+
+#~ msgid "slide_list_out"
+#~ msgstr ":arrow_left: Regresar a la conferencia."
+
+#~ msgid "conference_was_removed"
+#~ msgstr ":raised_hands: La conferencia fue eliminada: %s"
+
+#~ msgid "list_out"
+#~ msgstr ":wave: Salir"
+
+#~ msgid "conference_list_out"
+#~ msgstr ":arrow_left: Regresar al curso"
+
+#~ msgid "conference_create_slide_do_remove"
+#~ msgstr "Si"
+
+#~ msgid "conference_create_slide_remove_confirmation"
+#~ msgstr "¿Está seguro que desea eliminar la diapositiva?"
+
+#~ msgid "conference_create_slide_edit"
+#~ msgstr "Editar"
+
+#~ msgid "conference_create_slide_remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "conference_create_slide_go_conference"
+#~ msgstr ":arrow_left: Regresar a la conferencia"
+
+#~ msgid "conference_create_slide_item_menu"
+#~ msgstr "Menú"
+
+#~ msgid "conference_create_slide_go_conference_abort"
+#~ msgstr "Abortar e ir a Conferencia"
+
+#~ msgid "conference_list_menu"
+#~ msgstr "Conferencias del curso \"%s\""
+
+#~ msgid "conferences_empty_list"
+#~ msgstr ""
+#~ "Todavía no hay conferencias registradas para este curso. Se el primero :"
+#~ "stuck_out_tongue_winking_eye:"
+
+#~ msgid "categories_command_description"
+#~ msgstr "Listar las temáticas"
+
+#~ msgid "categories_list_header"
+#~ msgstr ":point_right: Temáticas"
+
+#~ msgid "start_command_categories"
+#~ msgstr ":dart: Ver temáticas"
+
+#~ msgid "conference_create_change_btn"
+#~ msgstr "Cambiar"
+
+#~ msgid "conference_create_name_lb"
+#~ msgstr "Nombre: %s"
+
+#~ msgid "conference_create_description_lb"
+#~ msgstr "Descripción: %s"
+
+#~ msgid "conference_menu_desactive"
+#~ msgstr "Desactivar"
+
+#~ msgid "conference_menu_active"
+#~ msgstr "Activar"
+
+#~ msgid "conference_back_course"
+#~ msgstr ":arrow_left: Regresar al curso"
+
+#~ msgid "course_was_removed"
+#~ msgstr ":raised_hands: El curso fue eliminado: %s"
+
+#~ msgid "course_create_change_btn"
+#~ msgstr "Cambiar"
+
+#~ msgid "course_create_name_lb"
+#~ msgstr "Nombre: %s"
+
+#~ msgid "course_set_category_header"
+#~ msgstr "Configurar temática"
+
+#~ msgid "course_was_set_the_category"
+#~ msgstr ":raised_hands: Fue configurada la tamática para el curso: %s"
+
+#~ msgid "course_create_description_lb"
+#~ msgstr "Descripción: %s"
+
+#~ msgid "course_wait_end"
+#~ msgstr ":arrow_left: Regresar a cursos."
+
+#~ msgid "course_list_menu"
+#~ msgstr "Cursos de la temática %s"
+
+#~ msgid "courses_empty_list"
+#~ msgstr ""
+#~ "Todavía no hay cursos registrados para esta temática. Se el primero :"
+#~ "stuck_out_tongue_winking_eye:"
+
+#~ msgid "myconferences_command_description"
+#~ msgstr "Listar sus cursos"
+
+#~ msgid "go_to_back"
+#~ msgstr "Regresar"
+
+#~ msgid "command_out_of_context"
+#~ msgstr "Este commando no puede ser usado en este contexto."
+
+#~ msgid "book_fair_start_text"
+#~ msgstr ""
+#~ "Hola. Lo guiaré en el proceso para la reservación en la feria del libro. "
+#~ "Se deben comprar entradas para niños y para adultos por separado porque "
+#~ "tienen precios diferente."
+
+#~ msgid "book_fair_start_question"
+#~ msgstr "¿Desea comenzar?"
+
+#~ msgid "book_fair_wait_start_clear"
+#~ msgstr "Bueno, si después quiere hacerlo no dude en llamarme otra vez :D"
+
+#~ msgid "book_fair_wait_adults"
+#~ msgstr "Dígame la cantidad de adultos."
+
+#~ msgid "book_fair_wait_start_yes_or_no"
+#~ msgstr "Lo siento no lo entiendo. ¿Podría escribir, si o no?"
+
+#~ msgid "book_fair_wait_adults_children"
+#~ msgstr "Dígame la cantidad de niños."
+
+#~ msgid "book_fair_wait_adults_error"
+#~ msgstr "Hubo un error en lo que escribió. ¿Podría escribir un número?"
+
+#~ msgid "book_fair_pay"
+#~ msgstr "¿Desea pagar?"
+
+#~ msgid "book_fair_wait_children_error"
+#~ msgstr "Hubo un error en lo que escribió. ¿Podría escribir un número?"
+
+#~ msgid "book_fair_invoice"
+#~ msgstr "Factura"
+
+#~ msgid "%(num)d adult"
+#~ msgid_plural "%(num)d adults"
+#~ msgstr[0] "%(num)d adulto"
+#~ msgstr[1] "%(num)d adultos"
+
+#~ msgid "%(num)d child"
+#~ msgid_plural "%(num)d children"
+#~ msgstr[0] "%(num)d niño"
+#~ msgstr[1] "%(num)d niños"
+
+#~ msgid "book_fair_wait_pay_clear"
+#~ msgstr "Bueno, si más tarde quiere reservar, no dude en escribirme."
+
+#~ msgid "book_fair_wait_pay_link"
+#~ msgstr "Este es el link para que pague..."
+
+#~ msgid "book_fair_wait_pay_yes_or_no"
+#~ msgstr "Lo siento no lo entiendo. ¿Podría escribir, si o no?"
+
+#~ msgid "group_conference_start"
+#~ msgstr ""
+#~ "*$name* \n"
+#~ "$description"
+
+#~ msgid "It is the help of the bot"
+#~ msgstr "Este bot permite visualizar o crear conferencias."

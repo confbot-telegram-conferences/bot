@@ -1,0 +1,38 @@
+version: '3'
+
+volumes:
+  mongodb_data: {}
+  vscode_data: {}
+
+services:
+  app:
+    user: vscode
+    build:
+      context: .
+      dockerfile: ./compose/local/app/Dockerfile
+    image: eticket_local_chat_manager
+    container_name: chat_manager
+    volumes:
+      - .:/app
+      - vscode_data:/home/vscode/
+    env_file:
+      - ./.envs/.local/.app
+    ports:
+      - "9000:9000"
+    command: sleep infinity
+    links:
+      - mongodb
+
+  mongodb:
+    image: mongo:3.4.1
+    working_dir: /opt/mongodb
+    volumes:
+      - mongodb_data:/opt/mongodb
+    command: sh -c 'mkdir -p /opt/mongodb && mongod --port 27017 --dbpath /opt/mongodb'
+    ports:
+      - "4000:27017"
+
+networks:
+  default:
+    external:
+      name: conference-network
